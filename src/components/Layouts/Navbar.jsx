@@ -34,7 +34,7 @@ const Navbar = () => {
         className="bg-black px-10 mx-5 text-white rounded"
         onClick={() => setIsDarkMode(!isDarkMode)}
       >
-        {isDarkMode ? "Light" : "Dark"}
+        {isDarkMode ? "Light Mode" : "Dark Mode"}
       </Button>
     </div>
   );

@@ -16,7 +16,7 @@ const AuthLayouts = (props) => {
           className="absolute right-2 top-2 bg-blue-600 p-2 text-white rounded"
           onClick={() => setIsDarkMode(!isDarkMode)}
         >
-          {isDarkMode ? "Light" : "Dark"}
+          {isDarkMode ? "Light Mode" : "Dark Mode"}
         </button>
         <h1 className="text-3-xl font-bold mb-2 text-blue-600">{title}</h1>
         <p className="font-medium text-slate-500">
